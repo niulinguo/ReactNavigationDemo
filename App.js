@@ -16,6 +16,7 @@ import {LoginScreen} from './views/login/LoginScreen';
 import {MainScreen} from './views/home/MainScreen';
 import {UserScreen} from './views/setting/UserScreen';
 import {SettingScreen} from './views/setting/SettingScreen';
+import {ColorScreen} from './views/setting/ColorScreen';
 import {HeadlineScreen} from './views/headline/HeadlineScreen';
 import {HeadlineDetailScreen} from './views/headline/HeadlineDetailScreen';
 import {AboutScreen} from './views/setting/AboutScreen';
@@ -132,6 +133,7 @@ const AppContainer = createAppContainer(
           {
             SettingScreen: SettingScreen,
             AboutScreen: AboutScreen,
+            ColorScreen: ColorScreen,
           },
           {
             navigationOptions: ({navigation, screenProps}) => ({
